@@ -1,0 +1,49 @@
+// Custom Files
+@import "utilities/variables";
+// @import "utilities/mixins";
+
+// Required
+@import "../bootstrap-5.0.0-beta1/scss/bootstrap";
+@import "../bootstrap-5.0.0-beta1/scss/functions";
+@import "../bootstrap-5.0.0-beta1/scss/variables";
+@import "../bootstrap-5.0.0-beta1/scss/mixins";
+
+
+// Optional
+@import "../bootstrap-5.0.0-beta1/scss/containers";
+@import "../bootstrap-5.0.0-beta1/scss/root";
+@import "../bootstrap-5.0.0-beta1/scss/reboot";
+@import "../bootstrap-5.0.0-beta1/scss/type";
+@import "../bootstrap-5.0.0-beta1/scss/card";
+@import "../bootstrap-5.0.0-beta1/scss/grid";
+@import "../bootstrap-5.0.0-beta1/scss/list-group";
+
+
+// Font Options: Zilla Slab, Josefin Slab, Special Elite (typewriter), Poiret One, Cutive Mono
+
+// Header Custom Styles
+
+header {
+  background-color: lighten($dark-primary, 40%);
+}
+
+.headline h1 {
+  font-family: $font-family-display;
+}
+
+.nav-link {
+  color: darken($bright-primary, 50%);
+  &:hover {
+    color: lighten($bright-primary, 30%);
+  }
+}
+
+// Main Custom Styles
+
+body {
+  background-color: $neutral-light;
+}
+
+.card-img-top {
+  width: initial;
+}
