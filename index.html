@@ -41,7 +41,9 @@
     <main class="container-xxl px-4 pt-4">
       <!--I am a freelance writer & researcher specializing in B2B/B2C content for the research industry.-->
 
-      <div class="main-section-1 border-bottom">
+<!-- Customer Section -->
+
+      <div class="section-customer border-bottom">
         <h3 class="py-5 text-center fw-bold">Does this sound like you?</h3>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -77,13 +79,89 @@
           <a class="btn btn-primary" href="#" role="button">Link</a>
         </div>
       </div>
-      <div class="main-section-2 border-bottom">
-        <h3 class="py-5 text-center fw-bold">How I can help</h3>
+
+<!-- Services Offered Section -->
+
+      <div class="section-services border-bottom py-5">
+        <h3 class="pb-5 text-center fw-bold">How I can help</h3>
         <p>Lorem ipsum dolor sit amet, no legimus offendit philosophia nam, id vidit eripuit definitiones nam, nusquam efficiantur usu ex. Mundi offendit est eu, ex alii forensibus duo. Usu in liber denique nominati, ne prompta phaedrum vis, ne sed vitae graeco. Ex vix vitae persius dolorem, pro ex graeco fierent hendrerit.</p>
         <p>Mel ex suas enim omnesque, ne sea putant fierent. Denique rationibus in mei, nemore diceret ne pro. Mel quando splendide cu, at alia argumentum has. Sit quando aliquam id, mei choro verear admodum id. Mel ei praesent reprimique persequeris, ius falli melius no. Sed in munere facilis alienum, blandit qualisque pri ne.</p>
       </div>
-      <div class="main-section-4 border-bottom">
-        <h3 class="py-5 text-center fw-bold">Ready to connect?</h3>
+
+<!-- Contact Section -->
+
+      <div class="section-contact border-bottom py-5">
+        <h3 class="pb-5 text-center fw-bold">Let's chat!</h3>
+        <div class="about border-bottom pb-3">
+          <h4 class="text-center">Who am I?</h4>
+          <img class="img-thumbnail rounded mx-auto my-3 d-block" src="images/s_moore_profile.webp" alt="">
+          <div class="bio">
+            <p>I’m a freelance writer and researcher living & loving life in beautiful Bend, Oregon. Like other research nerds, the art and practice of research is my favorite part of any assignment, be it academic or professional. I’ve translated that passion into helping those in the research industry get their message out there, build consumer trust in their products/services, and grow their clientele.</p>
+            <p>Whether your company is a research database provider, a company that provides research services, or a publication hoping to connect with research databases, I’m here to get your message to the right folks.</p>
+            <p>Let’s talk about your research marketing and content creation goals & how I can help you achieve them.</p>
+          </div>
+        </div>
+        <div class="contact py-3 text-center">
+          <h4 class="text-center pb-3">Ready to get started?</h4>
+          <div class="social-container pb-3">
+            <p>Reach out on social media here:</p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/shannonmoorewrites">
+                <img src="icons/LI-In-Bug.png" height="45px" width="45px"alt="LinkedIn logo and link">
+              </a>
+              <a href="https://twitter.com/shannonwrites">
+                <img class="rounded" src="icons/Twitter_social_icons-square-blue.png" height="45px" width="45px" alt="Twitter logo and link">
+              </a>
+            </div>
+          </div>
+          <div class="form-link pb-3">
+            <p>Fill out the form by clicking the link below:</p>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactForm">
+              Reach out here
+            </button>
+          </div>
+
+<!-- Contact Modal -->
+            <div class="modal fade" id="contactForm" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Contact</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="inputName" placeholder="Name">
+                        <label for="inputName" class="form-label">Name</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Name">
+                        <label for="inputEmail" class="form-label">Email</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="inputSubject" placeholder="Name">
+                        <label for="inputSubject" class="form-label">Subject</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <textarea class="form-control" id="inputMessage" style="height: 200px" placeholder="Name"></textarea>
+                        <label for="inputMessage" class="form-label">Message</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="email-info">
+              <p>Or email me directly:</p>
+              <p>shannonm.writes at gmail dot com</p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </main>
 
