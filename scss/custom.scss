@@ -24,7 +24,7 @@
 // Header Custom Styles
 
 header {
-  background-color: lighten($dark-primary, 40%);
+  background-color: $dark-primary;
 }
 
 .headline h1 {
@@ -32,7 +32,7 @@ header {
 }
 
 .nav-link {
-  color: darken($bright-primary, 50%);
+  color: $bright-primary;
   &:hover {
     color: lighten($bright-primary, 30%);
   }
@@ -46,4 +46,16 @@ body {
 
 .card-img-top {
   width: initial;
+}
+
+
+// Portfolio Custom Styles
+
+.btn-primary {
+  background-color: $dark-secondary;
+  border-color: $bright-primary;
+  &:hover {
+    background-color: $bright-primary;
+    border-color: $bright-primary;
+  }
 }

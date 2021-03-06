@@ -13080,7 +13080,7 @@ progress {
 }
 
 header {
-  background-color: #a29692;
+  background-color: #383230;
 }
 
 .headline h1, .headline .h1 {
@@ -13088,10 +13088,10 @@ header {
 }
 
 .nav-link {
-  color: #262e1c;
+  color: #5DB09E;
 }
 .nav-link:hover {
-  color: #f1f4ee;
+  color: #c4e2dc;
 }
 
 body {
@@ -13100,6 +13100,15 @@ body {
 
 .card-img-top {
   width: initial;
+}
+
+.btn-primary {
+  background-color: #3B4348;
+  border-color: #5DB09E;
+}
+.btn-primary:hover {
+  background-color: #5DB09E;
+  border-color: #5DB09E;
 }
 
 /*# sourceMappingURL=master.css.map */
