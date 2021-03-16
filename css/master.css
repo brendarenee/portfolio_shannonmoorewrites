@@ -13080,7 +13080,11 @@ progress {
 }
 
 header {
-  background-color: #383230;
+  background-color: #3B4348;
+  background-image: url("../images/programmer-3607627.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .headline h1, .headline .h1 {
@@ -13100,6 +13104,19 @@ body {
 
 .card-img-top {
   width: initial;
+}
+
+.section h3, .section .h3 {
+  font-family: "Special Elite", cursive;
+}
+
+footer {
+  box-sizing: border-box;
+  background-color: #3B4348;
+  background-image: url("../images/forest-4321419.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .btn-primary {

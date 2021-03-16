@@ -24,7 +24,12 @@
 // Header Custom Styles
 
 header {
-  background-color: $dark-primary;
+  background-color: $dark-secondary;
+  background-image: url("../images/programmer-3607627.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .headline h1 {
@@ -46,6 +51,19 @@ body {
 
 .card-img-top {
   width: initial;
+}
+
+.section h3 {
+  font-family: $font-family-display;
+}
+
+footer {
+  box-sizing: border-box;
+  background-color: $dark-secondary;
+  background-image: url("../images/forest-4321419.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
